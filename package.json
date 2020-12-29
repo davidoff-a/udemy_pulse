@@ -20,14 +20,10 @@
     "gulp-cli": "^2.3.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0"
-<<<<<<< HEAD
   },
   "browserslist": [
     "defaults",
     "not IE 11",
     "maintained node versions"
   ]
-=======
-  }
->>>>>>> b21b9ccd916592e66f59e8f17c77da56f83677f2
 }
