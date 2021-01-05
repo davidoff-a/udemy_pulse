@@ -4,7 +4,7 @@
         position: relative;
         width: 750px;
         margin: 0 auto;
-    }
+    };
     .slick-prev, .slick-next  {
         position: absolute;
         top: 50%;
@@ -16,9 +16,9 @@
             width: 31px;
             height: 50px;
         }
-    }
+    };
     .slick-next  {
         right: -66px;
         left: auto;
-    }
-}
+    };
+};
