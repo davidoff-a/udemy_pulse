@@ -1,0 +1,23 @@
+.advantages {
+	min-height: 573px;
+	margin-top: 73px;
+	margin-bottom: 65px;
+	&__wrapper {
+        
+		display: flex;
+		margin: 0 auto;
+		margin-top: 60px;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+	h2 {
+        display: block;
+        text-align: center;
+		margin: 0 auto;
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 30px;
+		color: #0d0d0d;
+		text-transform: uppercase;
+	}
+}
