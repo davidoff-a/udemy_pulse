@@ -1,19 +1,19 @@
 $(document).ready(function () {
-	$('.carousel__inner').slick({
-		speed: 1200,
-		adaptiveHeight: true,
-		prevArrow:
-			'<button type="button" class="slick-prev"><img src="icons/left.svg"></button>',
-		nextArrow:
-			'<button type="button" class="slick-next"><img src="icons/right.svg"></button>',
-		responsive: [
-			{
-				breakpoint: 992,
-				settings: {
-					dots: true,
-					arrows: false,
-				},
+	var owl = $('.owl-carousel');
+	owl.owlCarousel({
+		margin: 10,
+		nav: true,
+		loop: true,
+		responsive: {
+			0: {
+				items: 1,
 			},
-		],
+			600: {
+				items: 3,
+			},
+			1000: {
+				items: 5,
+			},
+		},
 	});
 });
