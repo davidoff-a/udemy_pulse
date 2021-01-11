@@ -33,4 +33,23 @@ $(document).ready(function () {
 				.addClass('catalog__content_active');
 		}
 	);
+
+	$('.catalog-item__link').each(function (i) {
+		$(this).on('click', function (e) {
+			e.preventDefault();
+			$('.catalog-item__content').eq(i).ToggleClass("catalog-item__content_active");
+			$('.catalog-item__list').eq(i).ToggleClass('.catalog-item__list_active');
+		});
+	});
+
+	$('.catalog-item__back').each(function (i) {
+		$(this).on('click', function (e) {
+			e.preventDefault();
+			$('.catalog-item__content')
+				.eq(i)
+				.ToggleClass('catalog-item__content_active');
+			$('.catalog-item__list').eq(i).ToggleClass('catalog-item__list_active');
+		});
+	});
+	// function togglSlide(item) {}
 });
