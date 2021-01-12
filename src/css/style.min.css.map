@@ -12,7 +12,8 @@
         "../sass/blocks/_consultation.scss",
         "../sass/blocks/_forms.scss",
         "../sass/blocks/_carousel.scss",
-        "../sass/blocks/_catalog.scss"
+        "../sass/blocks/_catalog.scss",
+        "../sass/blocks/_reviews.scss"
     ],
     "names": [],
     "file": "style.min.css"
